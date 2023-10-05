@@ -5,9 +5,10 @@ metadata:
 spec:
   selector:
     app: basic-app
-  type: LoadBalancer
+  type: NodePort
   ports:
     - protocol: TCP
       port: 5000
       targetPort: 5000
+      nodePort: 30100
   
