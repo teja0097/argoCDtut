@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: basic-app-container
-          image: tejasivedha/basic_app:latest
+          image: tejasivedha/basic-app-v1:latest
           ports:
             - containerPort: 5000
